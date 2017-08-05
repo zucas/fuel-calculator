@@ -1,6 +1,6 @@
 <template>
   <q-layout>
-    <img src="http://cdn.airplane-pictures.net/images/uploaded-images/2012/11/9/248722.jpg" class="fit fullscreen responsive" alt="">
+    <img src="https://c1.staticflickr.com/1/206/478962457_72b41c1678_b.jpg" class="fit fullscreen responsive" alt="">
     <div slot="header" class="toolbar dark">
       <q-toolbar-title :padding="0">
         Sim Fuel Calculator by Davi Zucas
