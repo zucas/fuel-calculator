@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="card bg-teal text-white shadow-3">
+      <div class="card bg-black text-white shadow-3">
           <div class="card-title">
           <strong> Termos de uso</strong>
           </div>
