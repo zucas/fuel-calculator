@@ -81,26 +81,26 @@
 export default {
   data () {
     return {
-        consumo_por_min: 39,
-        select: 'a320',
-        trip_time: 60,
-        trip_altn: 35,
-        min: 10,
-        maxAlt: 90,
-        max: 361,
-        selectOptions: [{
-            label: 'Airbus A319',
-            value: 'a319'
-        }, {
-            label: 'Airbus A320',
-            value: 'a320'
-        }, {
-            label: 'Boeing B737-700',
-            value: 'b737'
-        }, {
-            label: 'Boeing B737-800',
-            value: 'b738'
-        }]
+      consumo_por_min: 39,
+      select: 'a320',
+      trip_time: 60,
+      trip_altn: 35,
+      min: 10,
+      maxAlt: 90,
+      max: 361,
+      selectOptions: [{
+          label: 'Airbus A319',
+          value: 'a319'
+      }, {
+          label: 'Airbus A320',
+          value: 'a320'
+      }, {
+          label: 'Boeing B737-700',
+          value: 'b737'
+      }, {
+          label: 'Boeing B737-800',
+          value: 'b738'
+      }]
     }
   }
 }
