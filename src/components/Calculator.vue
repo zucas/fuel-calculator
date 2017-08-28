@@ -5,7 +5,8 @@
       <div class="toolbar">
 
   <q-toolbar-title :padding="1">
-    Sim Fuel Calculator
+      <i class="material-icons">local_gas_station</i>
+    Calculator
   </q-toolbar-title>
 </div>
         <div class="card-content">
@@ -19,8 +20,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                  <div class="list no-border">
+                <div class="row">
+                    <div class="auto"></div>
+                  <div class="col">
+                      <div class="list no-border text-center">
                       <div class="list-label">Choose TRIP time (DEP to DEST in Minutes)</div>
                       <div class="item multiple-lines">
                           <i class="item-primary">schedule</i>
@@ -34,10 +37,12 @@
                           </div>
                       </div>
                   </div>
+                  </div>
                   <div class="auto">
 
                   </div>
-                  <div class="list no-border">
+                  <div class="col">
+                      <div class="list no-border">
                       <div class="list-label">Choose ALTN TRIP time (DEST to ALTN1 in Minutes)</div>
                       <div class="item multiple-lines">
                           <i class="item-primary">schedule</i>
@@ -51,6 +56,8 @@
                           </div>
                       </div>
                   </div>
+                  </div>
+                  <div class="auto"></div>
                 </div>
             </form>
         </div>
@@ -89,17 +96,8 @@ export default {
       maxAlt: 90,
       max: 361,
       selectOptions: [{
-          label: 'Airbus A319',
-          value: 'a319'
-      }, {
-          label: 'Airbus A320',
-          value: 'a320'
-      }, {
-          label: 'Boeing B737-700',
-          value: 'b737'
-      }, {
-          label: 'Boeing B737-800',
-          value: 'b738'
+        label: 'Airbus A320',
+        value: 'a320'
       }]
     }
   }

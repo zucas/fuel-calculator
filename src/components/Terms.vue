@@ -13,11 +13,6 @@
               <li>Fatores como: Metereologia, peso e aeronave utilizada (ex. PMDG ou ZIBO) afetarão o consumo.</li>
               <li>Os resultados não substituem o calculo feito pelo comandante do equipamento.</li>
           </div>
-          <div class="card-actions">
-              <button class="negative"><i class="icon">close</i> Cancelar</button>
-              <div class="auto"></div>
-              <button class="positive pull-right" @click="$emit('aceitou')"><i class="icon">done</i> Aceitar e continuar</button>
-          </div>
       </div>
   </div>
 </template>

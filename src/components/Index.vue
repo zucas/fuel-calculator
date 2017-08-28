@@ -12,11 +12,13 @@
       "<router-view class="layout-view">" component
       if using subRoutes
     -->
-    <div class="layout-padding">
-      <div class="row">
+    <div class="layout-view">
+      <div class="layout-padding">
         <div>
-          <Calculator></Calculator>
           <Terms @aceitou="aceitou"></Terms>
+          <br>
+          <br>
+          <Calculator></Calculator>
         </div>
       </div>
     </div>
