@@ -24,7 +24,7 @@
                     <div class="auto"></div>
                   <div class="col">
                       <div class="list no-border text-center">
-                      <div class="list-label">Choose TRIP time (DEP to DEST in Minutes)</div>
+                      <div class="list-label">DEP to DEST (Minutes)</div>
                       <div class="item multiple-lines">
                           <i class="item-primary">schedule</i>
                           <div class="item-content">
@@ -42,8 +42,8 @@
 
                   </div>
                   <div class="col">
-                      <div class="list no-border">
-                      <div class="list-label">Choose ALTN TRIP time (DEST to ALTN1 in Minutes)</div>
+                      <div class="list no-border text-center">
+                      <div class="list-label">DEST to ALTN1 (Minutes)</div>
                       <div class="item multiple-lines">
                           <i class="item-primary">schedule</i>
                           <div class="item-content">

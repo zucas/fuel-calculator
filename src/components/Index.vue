@@ -3,7 +3,7 @@
     <img src="https://c1.staticflickr.com/1/206/478962457_72b41c1678_b.jpg" class="fit fullscreen responsive" alt="">
     <div slot="header" class="toolbar dark">
       <q-toolbar-title :padding="0">
-        Sim Fuel Calculator by Davi Zucas
+        Sim Fuel Calculator by Davi Zucas - v0.1a
       </q-toolbar-title>
     </div>
 
